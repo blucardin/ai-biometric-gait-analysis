@@ -1,0 +1,44 @@
+/*Simple reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	/*You can use any kind of background here.*/
+	background: #6b92b9;
+}
+canvas {
+	display: block;
+}
+
+/* center the button */
+
+#button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    /* make the button bigger */
+    width: 100px;
+    height: 100px;
+    /* give it a nice round shape */
+    border-radius: 50px;
+    /* add a little shadow */
+    box-shadow: 0px 5px 0px #666;
+    /* add a slight highlight on active */
+    border: solid 1px #333;
+    /* make the button a little bit transparent */
+    opacity: 0.8;
+    /* add some nice hover effects */
+    transition: all 0.2s ease;
+    /* remove the default border */
+    outline: none;
+    /* add a custom font */
+    font-family: 'PT Sans', sans-serif;
+    /* add some custom font effect */
+    text-transform: uppercase;
+    /* move the button a little bit down on active */
+    transform: translate(0px, 5px);
+    /* increase the font size */
+    font-size: 1.2em;
+    
+}
