@@ -18,6 +18,9 @@ button.addEventListener('click', () => {
     gif.style.left = '50%';
     gif.style.top = '50%';
     gif.style.transform = 'translate(-50%, -50%)';
+
+    // increase the gif size
+    gif.style.height = '100%';
     
     
     
